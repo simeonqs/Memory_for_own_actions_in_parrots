@@ -1,0 +1,521 @@
+Animal;Session;Behaviour_1;Offered_1;Behaviour_2;Offered_2
+Mr Huang;1;spin;spin;fluff;fluff
+Mr Huang;1;wings;wings;repeat;wings
+Mr Huang;1;leg;fluff;repeat;wrong
+Mr Huang;1;repeat;wrong;spin;spin
+Mr Huang;1;wings;wings;fluff;fluff
+Mr Huang;1;repeat;fluff;repeat;fluff
+Mr Huang;1;spin;spin;repeat;spin
+Mr Huang;1;leg;leg;fluff;fluff
+Mr Huang;1;leg;leg;wings;wings
+Mr Huang;1;repeat;wings;repeat;wings
+Mr Huang;1;spin;spin;repeat;spin
+Mr Huang;1;repeat;spin;wings;wings
+Mr Huang;1;leg;leg;repeat;fluff
+Mr Huang;1;repeat;wings;spin;spin
+Mr Huang;1;leg;leg;wings;wings
+Mr Huang;1;repeat;wings;repeat;wings
+Mr Huang;1;fluff;fluff;repeat;wings
+Mr Huang;1;leg;leg;fluff;fluff
+Mr Huang;1;wings;wings;spin;spin
+Mr Huang;1;repeat;spin;repeat;spin
+Mr Huang;1;fluff;fluff;repeat;fluff
+Mr Huang;1;repeat;fluff;spin;spin
+Mr Huang;1;wings;wings;leg;leg
+Mr Huang;1;fluff;fluff;leg;leg
+Mr Huang;1;repeat;fluff;wings;wings
+Mr Huang;1;fluff;fluff;spin;spin
+Mr Huang;2;leg;leg;fluff;fluff
+Mr Huang;2;spin;spin;repeat;spin
+Mr Huang;2;fluff;fluff;repeat;fluff
+Mr Huang;2;repeat;spin;wings;wings
+Mr Huang;2;spin;spin;repeat;spin
+Mr Huang;2;repeat;spin;leg;leg
+Mr Huang;2;spin;spin;leg;leg
+Mr Huang;2;repeat;leg;wings;wings
+Mr Huang;2;repeat;wings;repeat;wings
+Mr Huang;2;spin;wings;fluff;fluff
+Mr Huang;2;repeat;fluff;wings;wings
+Mr Huang;2;leg;leg;fluff;fluff
+Mr Huang;2;fluff;fluff;repeat;fluff
+Mr Huang;2;repeat;fluff;spin;spin
+Mr Huang;2;leg;leg;repeat;leg
+Mr Huang;2;repeat;leg;wings;wings
+Mr Huang;2;wings;wings;repeat;wings
+Mr Huang;2;repeat;fluff;leg;leg
+Mr Huang;2;spin;spin;leg;leg
+Mr Huang;2;repeat;leg;repeat;fluff
+Mr Huang;2;wings;wings;leg;fluff
+Mr Huang;2;wings;wings;repeat;wings
+Mr Huang;2;wings;wings;spin;spin
+Mr Huang;2;repeat;spin;repeat;spin
+Mr Huang;2;fluff;fluff;fluff;fluff
+Mr Huang;2;spin;spin;fluff;fluff
+Mr Huang;3;spin;spin;leg;leg
+Mr Huang;3;spin;spin;leg;leg
+Mr Huang;3;repeat;leg;repeat;leg
+Mr Huang;3;wings;wings;fluff;fluff
+Mr Huang;3;leg;leg;spin;spin
+Mr Huang;3;repeat;spin;fluff;fluff
+Mr Huang;3;repeat;leg;repeat;spin
+Mr Huang;3;spin;spin;repeat;spin
+Mr Huang;3;repeat;spin;wings;wings
+Mr Huang;3;wings;wings;repeat;wings
+Mr Huang;3;fluff;fluff;spin;spin
+Mr Huang;3;wings;wings;fluff;fluff
+Mr Huang;3;repeat;fluff;repeat;fluff
+Mr Huang;3;wings;wings;leg;leg
+Mr Huang;3;repeat;leg;repeat;fluff
+Mr Huang;3;fluff;fluff;leg;leg
+Mr Huang;3;leg;leg;repeat;wings
+Mr Huang;3;spin;spin;fluff;fluff
+Mr Huang;3;wings;wings;repeat;wings
+Mr Huang;3;repeat;wings;spin;spin
+Mr Huang;3;repeat;spin;repeat;wings
+Mr Huang;3;leg;leg;fluff;fluff
+Mr Huang;3;fluff;fluff;repeat;wings
+Mr Huang;3;wings;wings;repeat;wings
+Mr Huang;3;repeat;wings;leg;leg
+Mr Huang;3;wings;wings;spin;wings
+Mr Huang;4;spin;spin;leg;leg
+Mr Huang;4;fluff;fluff;repeat;leg
+Mr Huang;4;repeat;leg;leg;leg
+Mr Huang;4;wings;wings;repeat;wings
+Mr Huang;4;leg;leg;spin;spin
+Mr Huang;4;repeat;spin;repeat;spin
+Mr Huang;4;fluff;fluff;wings;wings
+Mr Huang;4;spin;wings;leg;leg
+Mr Huang;4;repeat;leg;fluff;fluff
+Mr Huang;4;spin;spin;repeat;spin
+Mr Huang;4;repeat;fluff;fluff;fluff
+Mr Huang;4;spin;spin;wings;wings
+Mr Huang;4;repeat;wings;repeat;wings
+Mr Huang;4;spin;spin;wings;wings
+Mr Huang;4;fluff;fluff;repeat;wings
+Mr Huang;4;wings;wings;leg;leg
+Mr Huang;4;repeat;leg;repeat;leg
+Mr Huang;4;wings;wings;fluff;fluff
+Mr Huang;4;repeat;fluff;repeat;leg
+Mr Huang;4;wings;wings;spin;spin
+Mr Huang;4;repeat;spin;wings;wings
+Mr Huang;4;repeat;fluff;repeat;leg
+Mr Huang;4;leg;leg;fluff;fluff
+Mr Huang;4;leg;leg;repeat;leg
+Mr Huang;4;repeat;leg;spin;spin
+Mr Huang;4;fluff;fluff;leg;leg
+Mr Huang;5;wings;wings;leg;leg
+Mr Huang;5;leg;leg;repeat;leg
+Mr Huang;5;fluff;fluff;repeat;leg
+Mr Huang;5;repeat;leg+wings;wings;wings
+Mr Huang;5;leg;leg;spin;spin
+Mr Huang;5;fluff;fluff;wings;wings
+Mr Huang;5;repeat;wings;repeat;wings
+Mr Huang;5;leg;leg;fluff;fluff
+Mr Huang;5;wings;wings;spin;spin
+Mr Huang;5;repeat;spin;repeat;spin
+Mr Huang;5;wings;wings;wings;wings
+Mr Huang;5;repeat;wings;spin;spin
+Mr Huang;5;fluff;fluff;repeat;fluff
+Mr Huang;5;repeat;fluff;leg;leg
+Mr Huang;5;spin;spin;repeat;spin
+Mr Huang;5;leg;leg;repeat;leg
+Mr Huang;5;repeat;spin;fluff;fluff
+Mr Huang;5;leg;leg;repeat;leg
+Mr Huang;5;repeat;leg;wings;wings
+Mr Huang;5;spin;spin;fluff;fluff
+Mr Huang;5;repeat;fluff;spin;spin
+Mr Huang;5;fluff;fluff;fluff;fluff
+Mr Huang;5;spin;spin;repeat;spin
+Mr Huang;5;repeat;spin;leg;leg
+Mr Huang;5;wings;wings;repeat;wings
+Mr Huang;5;repeat;wings;spin;spin
+Mr Huang;6;spin;spin;fluff;fluff
+Mr Huang;6;wings;wings;leg;leg
+Mr Huang;6;leg;leg;repeat;leg
+Mr Huang;6;fluff;fluff;wings;wings
+Mr Huang;6;wings;wings;repeat;wings
+Mr Huang;6;repeat;wings;spin;spin
+Mr Huang;6;repeat;spin;spin;spin
+Mr Huang;6;leg;leg;repeat;leg
+Mr Huang;6;repeat;leg;spin;spin
+Mr Huang;6;spin;spin;repeat;fluff
+Mr Huang;6;repeat;spin;fluff;fluff
+Mr Huang;6;fluff;fluff;repeat;fluff
+Mr Huang;6;leg;leg;repeat;fluff
+Mr Huang;6;repeat;spin;fluff;fluff
+Mr Huang;6;spin;spin;leg;leg
+Mr Huang;6;wings;wings;repeat;wings
+Mr Huang;6;repeat;wings;fluff;fluff
+Mr Huang;6;repeat;fluff;repeat;fluff
+Mr Huang;6;leg;leg;leg;leg
+Mr Huang;6;fluff;fluff;repeat;leg
+Mr Huang;6;repeat;fluff;leg;leg
+Mr Huang;6;spin;spin;repeat;spin
+Mr Huang;6;repeat;fluff;wings;wings
+Mr Huang;6;wings;wings;spin;spin
+Mr Huang;6;wings;wings;repeat;wings
+Mr Huang;6;fluff;fluff;wings;wings
+Charlie;1;spin;spin;fluff;fluff
+Charlie;1;wings;wings;repeat;wings
+Charlie;1;leg;leg;repeat;leg
+Charlie;1;repeat;leg;spin;spin
+Charlie;1;wings;wings;fluff;fluff
+Charlie;1;repeat;leg;repeat;no
+Charlie;1;spin;spin;repeat;spin
+Charlie;1;leg;leg;fluff;fluff
+Charlie;1;leg;leg;wings;wings
+Charlie;1;repeat;wings;repeat;wings
+Charlie;1;spin;spin;repeat;spin
+Charlie;1;repeat;spin;wings;wings
+Charlie;1;leg;leg;repeat;leg
+Charlie;1;repeat;wings;spin;spin
+Charlie;1;leg;leg;wings;wings
+Charlie;1;repeat;spin;repeat;spin
+Charlie;1;fluff;fluff;repeat;spin
+Charlie;1;leg;leg;fluff;fluff
+Charlie;1;wings;wings;spin;spin
+Charlie;1;repeat;spin;repeat;spin
+Charlie;1;fluff;fluff;repeat;leg
+Charlie;1;repeat;no;spin;spin
+Charlie;1;wings;wings;leg;leg
+Charlie;1;fluff;fluff;leg;leg
+Charlie;1;repeat;leg;wings;wings
+Charlie;1;fluff;wings;spin;spin
+Charlie;2;leg;leg;fluff;fluff
+Charlie;2;spin;spin;repeat;spin
+Charlie;2;fluff;fluff;repeat;fluff
+Charlie;2;repeat;leg;wings;wings
+Charlie;2;spin;spin;repeat;spin
+Charlie;2;repeat;spin;leg;leg
+Charlie;2;spin;spin;leg;leg
+Charlie;2;repeat;leg;wings;wings
+Charlie;2;repeat;wings;repeat;wings+leg
+Charlie;2;spin;spin;fluff;fluff
+Charlie;2;repeat;leg;wings;wings
+Charlie;2;leg;leg;fluff;fluff
+Charlie;2;fluff;fluff;repeat;fluff
+Charlie;2;repeat;spin;spin;spin
+Charlie;2;leg;leg;repeat;spin
+Charlie;2;repeat;wings;wings;wings
+Charlie;2;wings;wings;repeat;wings
+Charlie;2;repeat;wings;leg;wings+leg
+Charlie;2;spin;spin;leg;leg
+Charlie;2;repeat;fluff;repeat;wings
+Charlie;2;wings;wings;leg;leg
+Charlie;2;wings;wings;repeat;wings
+Charlie;2;wings;wings;spin;spin
+Charlie;2;repeat;spin;repeat;spin
+Charlie;2;fluff;fluff;fluff;fluff
+Charlie;2;spin;spin;fluff;fluff
+Charlie;3;spin;spin;leg;leg
+Charlie;3;spin;spin;leg;leg
+Charlie;3;repeat;leg;repeat;leg
+Charlie;3;wings;wings;fluff;fluff
+Charlie;3;leg;leg;spin;spin
+Charlie;3;repeat;spin;fluff;fluff
+Charlie;3;repeat;leg;repeat;leg
+Charlie;3;spin;spin;repeat;leg
+Charlie;3;repeat;leg;wings;wings
+Charlie;3;wings;wings;repeat;wings
+Charlie;3;fluff;fluff;spin;spin
+Charlie;3;wings;wings;fluff;fluff
+Charlie;3;repeat;leg;repeat;leg
+Charlie;3;wings;wings;leg;leg
+Charlie;3;repeat;wings;repeat;wings
+Charlie;3;fluff;wings;leg;leg
+Charlie;3;leg;leg;repeat;leg
+Charlie;3;spin;spin;fluff;fluff
+Charlie;3;wings;wings;repeat;wings
+Charlie;3;repeat;wings;spin;spin
+Charlie;3;repeat;spin;repeat;spin
+Charlie;3;leg;leg;fluff;fluff
+Charlie;3;fluff;fluff;repeat;fluff
+Charlie;3;wings;wings;repeat;wings
+Charlie;3;repeat;wings;leg;leg
+Charlie;3;wings;wings;spin;spin
+Charlie;4;spin;spin;leg;leg
+Charlie;4;fluff;fluff;repeat;leg
+Charlie;4;repeat;fluff;leg;leg
+Charlie;4;wings;wings;repeat;wings
+Charlie;4;leg;leg;spin;spin
+Charlie;4;repeat;spin;repeat;fluff
+Charlie;4;fluff;fluff;wings;wings
+Charlie;4;spin;spin;leg;leg
+Charlie;4;repeat;leg;fluff;fluff
+Charlie;4;spin;spin;repeat;spin
+Charlie;4;repeat;spin;fluff;fluff
+Charlie;4;spin;spin;wings;wings
+Charlie;4;repeat;wings;repeat;wings
+Charlie;4;spin;spin;wings;wings
+Charlie;4;fluff;fluff;repeat;wings
+Charlie;4;wings;wings;leg;leg
+Charlie;4;repeat;leg;repeat;leg
+Charlie;4;wings;wings;fluff;fluff
+Charlie;4;repeat;fluff;repeat;fluff
+Charlie;4;wings;wings;spin;spin
+Charlie;4;repeat;spin;wings;wings
+Charlie;4;repeat;wings;repeat;wings
+Charlie;4;leg;leg;fluff;fluff
+Charlie;4;leg;leg;repeat;leg
+Charlie;4;repeat;leg;spin;spin
+Charlie;4;fluff;fluff;leg;leg
+Charlie;5;wings;wings;leg;leg
+Charlie;5;leg;leg;repeat;leg
+Charlie;5;fluff;fluff;repeat;leg
+Charlie;5;repeat;wings;wings;wings
+Charlie;5;leg;leg;spin;spin
+Charlie;5;fluff;fluff;wings;wings
+Charlie;5;repeat;wings;repeat;wings
+Charlie;5;leg;leg;fluff;wings
+Charlie;5;wings;wings;spin;spin
+Charlie;5;repeat;spin;repeat;spin
+Charlie;5;wings;wings;wings;wings
+Charlie;5;repeat;wings;spin;spin
+Charlie;5;fluff;fluff;repeat;fluff
+Charlie;5;repeat;fluff;leg;leg
+Charlie;5;spin;spin;repeat;fluff
+Charlie;5;leg;leg;repeat;leg
+Charlie;5;repeat;leg;fluff;fluff
+Charlie;5;leg;leg;repeat;leg
+Charlie;5;repeat;leg;wings;wings
+Charlie;5;spin;spin;fluff;fluff
+Charlie;5;repeat;fluff;spin;spin
+Charlie;5;fluff;fluff;fluff;fluff
+Charlie;5;spin;spin;repeat;fluff
+Charlie;5;repeat;fluff;leg;leg
+Charlie;5;wings;wings;repeat;wings
+Charlie;5;repeat;wings;spin;spin
+Gargamel;1;spin;spin;fluff;fluff
+Gargamel;1;wings;wings;repeat;wings
+Gargamel;1;leg;leg;repeat;leg
+Gargamel;1;repeat;leg;spin;spin
+Gargamel;1;wings;wings;fluff;fluff
+Gargamel;1;repeat;leg;repeat;no
+Gargamel;1;spin;spin;repeat;spin
+Gargamel;1;leg;leg;fluff;fluff
+Gargamel;1;leg;leg;wings;wings
+Gargamel;1;repeat;wings;repeat;wings
+Gargamel;1;spin;spin;repeat;spin
+Gargamel;1;repeat;spin;wings;wings
+Gargamel;1;leg;leg;repeat;leg
+Gargamel;1;repeat;wings;spin;spin
+Gargamel;1;leg;leg;wings;wings
+Gargamel;1;repeat;spin;repeat;spin
+Gargamel;1;fluff;fluff;repeat;spin
+Gargamel;1;leg;leg;fluff;fluff
+Gargamel;1;wings;wings;spin;spin
+Gargamel;1;repeat;spin;repeat;spin
+Gargamel;1;fluff;fluff;repeat;leg
+Gargamel;1;repeat;no;spin;spin
+Gargamel;1;wings;wings;leg;leg
+Gargamel;1;fluff;fluff;leg;leg
+Gargamel;1;repeat;leg;wings;wings
+Gargamel;1;fluff;wings;spin;spin
+Mr Huang;7;fluff;fluff;wings;wings
+Mr Huang;7;fluff;fluff;repeat;fluff
+Mr Huang;7;repeat;fluff;spin;spin
+Mr Huang;7;wings;wings;repeat;wings
+Mr Huang;7;repeat;wings;leg;leg
+Mr Huang;7;fluff;fluff;fluff;fluff
+Mr Huang;7;repeat;fluff;wings;wings
+Mr Huang;7;repeat;fluff;leg;leg
+Mr Huang;7;wings;wings;repeat;wings
+Mr Huang;7;repeat;wings;spin;spin
+Mr Huang;7;fluff;fluff;wings;wings
+Mr Huang;7;leg;leg;repeat;fluff
+Mr Huang;7;repeat;fluff;spin;spin
+Mr Huang;7;repeat;fluff;spin;spin
+Mr Huang;7;wings;wings;spin;spin
+Mr Huang;7;repeat;spin;repeat;fluff
+Mr Huang;7;leg;leg;leg;leg
+Mr Huang;7;repeat;leg;wings;wings
+Mr Huang;7;fluff;fluff;leg;leg
+Mr Huang;7;fluff;fluff;repeat;fluff
+Mr Huang;7;repeat;fluff;spin;spin
+Mr Huang;7;leg;leg;repeat;fluff
+Mr Huang;7;repeat;leg;wings;wings
+Mr Huang;7;spin;spin;repeat;spin
+Mr Huang;7;repeat;spin;leg;leg
+Mr Huang;7;fluff;fluff;spin;spin
+Mr Huang;8;fluff;fluff;leg;leg
+Mr Huang;8;repeat;leg;leg;leg
+Mr Huang;8;fluff;fluff;repeat;leg
+Mr Huang;8;repeat;leg;wings;wings
+Mr Huang;8;fluff;fluff;wings;wings
+Mr Huang;8;repeat;wings;repeat;wings
+Mr Huang;8;leg;leg;leg;leg
+Mr Huang;8;spin;spin;repeat;spin
+Mr Huang;8;fluff;fluff;wings;wings
+Mr Huang;8;leg;leg;repeat;leg
+Mr Huang;8;repeat;leg;spin;spin
+Mr Huang;8;wings;wings;repeat;wings
+Mr Huang;8;spin;spin;repeat;wings
+Mr Huang;8;repeat;wings;spin;spin
+Mr Huang;8;fluff;fluff;repeat;spin
+Mr Huang;8;fluff;fluff;leg;leg
+Mr Huang;8;repeat;leg;repeat;leg
+Mr Huang;8;leg;leg;spin;spin
+Mr Huang;8;wings;wings;repeat;wings
+Mr Huang;8;repeat;wings;spin;spin
+Mr Huang;8;repeat;fluff+spin;repeat;spin
+Mr Huang;8;leg;leg;wings;wings
+Mr Huang;8;spin;spin;fluff;fluff
+Mr Huang;8;repeat;fluff;repeat;fluff
+Mr Huang;8;spin;spin;wings;wings
+Mr Huang;8;fluff;fluff;wings;wings
+Charlie;6;spin;spin;fluff;fluff
+Charlie;6;wings;wings;leg;leg
+Charlie;6;leg;leg;repeat;leg
+Charlie;6;fluff;fluff;wings;wings
+Charlie;6;wings;wings;repeat;wings + leg
+Charlie;6;repeat;leg;spin;spin
+Charlie;6;repeat;spin;spin;spin
+Charlie;6;leg;leg;repeat;leg
+Charlie;6;repeat;leg;spin;spin
+Charlie;6;spin;spin;repeat;leg
+Charlie;6;repeat;spin;fluff;fluff
+Charlie;6;fluff;fluff;repeat;fluff
+Charlie;6;leg;leg;repeat;leg
+Charlie;6;repeat;leg;fluff;fluff
+Charlie;6;spin;spin;leg;leg
+Charlie;6;wings;wings;repeat;wings
+Charlie;6;repeat;wings;fluff;fluff
+Charlie;6;repeat;fluff;repeat;fluff
+Charlie;6;leg;leg;leg;leg
+Charlie;6;fluff;fluff;repeat;leg
+Charlie;6;repeat;spin;leg;leg
+Charlie;6;spin;spin;repeat;spin
+Charlie;6;repeat;spin;wings;wings
+Charlie;6;wings;wings;spin;spin
+Charlie;6;wings;wings;repeat;wings
+Charlie;6;fluff;wings;wings;wings
+Charlie;7;fluff;fluff;wings;wings
+Charlie;7;fluff;fluff;repeat;leg
+Charlie;7;repeat;spin;spin;spin
+Charlie;7;wings;wings;repeat;wings
+Charlie;7;repeat;wings;leg;leg
+Charlie;7;fluff;fluff;fluff;fluff
+Charlie;7;repeat;fluff;wings;wings
+Charlie;7;repeat;wings;leg;leg
+Charlie;7;wings;wings;repeat;leg
+Charlie;7;repeat;spin;spin;spin
+Charlie;7;fluff;fluff;wings;wings
+Charlie;7;leg;leg;repeat;leg
+Charlie;7;repeat;leg;spin;spin
+Charlie;7;repeat;spin;spin;spin
+Charlie;7;wings;wings;spin;spin
+Charlie;7;repeat;spin;repeat;spin
+Charlie;7;leg;leg;leg;leg
+Charlie;7;repeat;leg;wings;wings
+Charlie;7;fluff;fluff;leg;leg
+Charlie;7;fluff;fluff;repeat;fluff
+Charlie;7;repeat;fluff;spin;spin
+Charlie;7;leg;leg;repeat;leg
+Charlie;7;repeat;fluff;wings;wings
+Charlie;7;spin;spin;repeat;spin
+Charlie;7;repeat;spin;leg;leg
+Charlie;7;fluff;fluff;spin;spin
+Charlie;8;fluff;fluff;leg;leg
+Charlie;8;repeat;fluff+leg;leg;leg
+Charlie;8;fluff;fluff;repeat;leg
+Charlie;8;repeat;fluff;wings;wings
+Charlie;8;fluff;fluff;wings;wings
+Charlie;8;repeat;wings;repeat;wings
+Charlie;8;leg;leg;leg;leg
+Charlie;8;spin;spin;repeat;spin
+Charlie;8;fluff;fluff;wings;wings
+Charlie;8;leg;leg;repeat;fluff
+Charlie;8;repeat;wings;spin;spin
+Charlie;8;wings;wings;repeat;wings
+Charlie;8;spin;spin;repeat;spin
+Charlie;8;repeat;wings;spin;spin
+Charlie;8;fluff;fluff;repeat;fluff
+Charlie;8;fluff;fluff;leg;leg
+Charlie;8;repeat;fluff+leg;repeat;leg
+Charlie;8;leg;leg;spin;spin
+Charlie;8;wings;wings;repeat;wings
+Charlie;8;repeat;wings;spin;spin
+Charlie;8;repeat;spin;repeat;spin
+Charlie;8;leg;leg;wings;wings
+Charlie;8;spin;spin;fluff;fluff
+Charlie;8;repeat;fluff;repeat;wings
+Charlie;8;spin;spin;wings;wings
+Charlie;8;fluff;wings;wings;wings
+Gargamel;2;leg;leg;fluff;fluff
+Gargamel;2;spin;spin;repeat;spin
+Gargamel;2;fluff;fluff;repeat;wings
+Gargamel;2;repeat;wings;wings;wings
+Gargamel;2;spin;spin;repeat;spin
+Gargamel;2;repeat;spin;leg;leg
+Gargamel;2;spin;spin;leg;leg
+Gargamel;2;repeat;leg;wings;wings
+Gargamel;2;repeat;leg;repeat;spin
+Gargamel;2;spin;spin;fluff;fluff
+Gargamel;2;repeat;spin;wings;wings
+Gargamel;2;leg;leg;fluff;fluff
+Gargamel;2;fluff;fluff;repeat;fluff
+Gargamel;2;repeat;fluff;spin;spin
+Gargamel;2;leg;leg;repeat;leg
+Gargamel;2;repeat;leg;wings;wings
+Gargamel;2;wings;wings;repeat;wings
+Gargamel;2;repeat;wings;leg;leg
+Gargamel;2;spin;spin;leg;leg
+Gargamel;2;repeat;fluff;repeat;leg
+Gargamel;2;wings;wings;leg;leg
+Gargamel;2;wings;wings;repeat;fluff
+Gargamel;2;wings;fluff;spin;spin
+Gargamel;2;repeat;spin;repeat;spin
+Gargamel;2;fluff;fluff;fluff;fluff
+Gargamel;2;spin;spin;fluff;fluff
+Gargamel;3;spin;spin;leg;leg
+Gargamel;3;spin;spin;leg;leg
+Gargamel;3;repeat;leg;repeat;leg
+Gargamel;3;wings;wings;fluff;wings
+Gargamel;3;leg;leg;spin;spin
+Gargamel;3;repeat;spin;fluff;fluff
+Gargamel;3;repeat;spin;repeat;spin
+Gargamel;3;spin;spin;repeat;spin
+Gargamel;3;repeat;spin;wings;wings
+Gargamel;3;wings;wings;repeat;wings
+Gargamel;3;fluff;fluff;spin;spin
+Gargamel;3;wings;wings;fluff;fluff
+Gargamel;3;repeat;wings;repeat;wings
+Gargamel;3;wings;wings;leg;leg
+Gargamel;3;repeat;leg;repeat;leg
+Gargamel;3;fluff;fluff;leg;leg
+Gargamel;3;leg;leg;repeat;leg
+Gargamel;3;spin;spin;fluff;fluff
+Gargamel;3;wings;wings;repeat;leg
+Gargamel;3;repeat;spin;spin;spin
+Gargamel;3;repeat;spin;repeat;spin
+Gargamel;3;leg;leg;fluff;fluff
+Gargamel;3;fluff;fluff;repeat;leg
+Gargamel;3;wings;wings;repeat;leg
+Gargamel;3;repeat;spin;leg;leg
+Gargamel;3;wings;wings;spin;spin
+Gargamel;4;spin;spin;leg;leg
+Gargamel;4;fluff;fluff;repeat;leg
+Gargamel;4;repeat;wings;leg;leg
+Gargamel;4;wings;wings;repeat;wings
+Gargamel;4;leg;fluff;spin;spin
+Gargamel;4;repeat;spin;repeat;spin
+Gargamel;4;fluff;fluff;wings;wings
+Gargamel;4;spin;spin;leg;leg
+Gargamel;4;repeat;leg;fluff;fluff
+Gargamel;4;spin;spin;repeat;spin
+Gargamel;4;repeat;spin;fluff;fluff
+Gargamel;4;spin;spin;wings;wings
+Gargamel;4;repeat;fluff;repeat;spin
+Gargamel;4;spin;spin;wings;wings
+Gargamel;4;fluff;fluff;repeat;fluff
+Gargamel;4;wings;wings;leg;leg
+Gargamel;4;repeat;leg;repeat;leg
+Gargamel;4;wings;fluff;fluff;fluff
+Gargamel;4;repeat;fluff;repeat;fluff
+Gargamel;4;wings;fluff;spin;spin
+Gargamel;4;repeat;spin;wings;wings
+Gargamel;4;repeat;wings;repeat;wings
+Gargamel;4;leg;leg;fluff;fluff
+Gargamel;4;leg;leg;repeat;leg
+Gargamel;4;repeat;leg;spin;spin
+Gargamel;4;fluff;fluff;leg;leg
