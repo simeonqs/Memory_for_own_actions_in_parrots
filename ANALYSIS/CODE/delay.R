@@ -1,7 +1,7 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # Project: parrot repeat
 # Date started: 02-05-2021
-# Date last modified: 05-05-2021
+# Date last modified: 14-05-2021
 # Author: Simeon Q. Smeele
 # Description: Analysis of the delay data.
 # source('delay.R', chdir = T)
@@ -38,10 +38,6 @@ colours_animals = c(MrHuang = '#B71C1C', Charlie = '#9B59B6', Gargamel = '#004D4
 # Translate id's
 trans_id  = c(MrHuang = 1, Charlie = 2, Gargamel = 3)
 
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-# ANALYSIS ----
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
 # Clean data
 trans_behaviour = 1:length(unique(delay$b1[delay$b1 != 'repeat']))
 names(trans_behaviour) = unique(delay$b1[delay$b1 != 'repeat'])
@@ -51,8 +47,12 @@ clean_dat = data.frame(id = trans_id[delay_rep$Animal],
                        response = ifelse(delay_rep$correct.or.not.2 == 'c', 1, 0),
                        log_time = log(delay_rep$delay))
 
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# ANALYSIS ----
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 # M1: Varying intercept ind and beh ----
-m_delay = ulam(
+m_1 = ulam(
   alist(
     response ~ dbinom(1, p),
     logit(p) <- a_bar + 
@@ -69,7 +69,7 @@ m_delay = ulam(
     gq> vector[beh]: a_beh <<- a_bar + z_beh * sigma_beh
   ), data = clean_dat, chains = 4, cores = 1, iter = 8000, warmup = 500)
 
-precis(m_delay, depth = 2) %>% plot
+precis(m_1, depth = 2) %>% plot
 
 # M2: Varying slope and intercept ind and beh ----
 m_delay_2 = ulam(
@@ -171,7 +171,7 @@ perfs = sapply(times, function(x)
 points(times, perfs, pch = 3, col = alpha(1, 0.7), cex = 2)
 
 # Include results
-post = extract.samples(m_delay)
+post = extract.samples(m_1)
 pred_perfs_means = sapply(times, function(time){
   sapply(1:length(post$a_bar), function(i) post$a_bar[i] + post$b[i] * time) %>% mean %>% inv_logit
 })
