@@ -1,0 +1,113 @@
+Animal;Session;correct.or.not.1;correct.or.not.2;delay;b1;b2
+Clara;1;c;n;3;canto;repeat
+Clara;1;c;c;3;aplauso;repeat
+Clara;1;c;n;6;giro;repeat
+Clara;1;c;n;3;canto;repeat
+Clara;1;c;c;3;giro;canto
+Clara;1;c;c;3;belly up;repeat
+Clara;1;c;n;6;aplauso;repeat
+Clara;1;c;c;3;belly up;belly up
+Clara;1;c;c;3;giro;aplauso
+Clara;1;c;n;3;belly up;repeat
+Clara;1;c;c;3;giro;repeat
+Clara;1;c;c;6;canto;aplauso
+Clara;1;c;n;6;belly up;repeat
+Clara;1;c;n;3;canto;repeat
+Clara;1;c;n;3;giro;repeat
+Clara;1;c;n;3;aplauso;repeat
+Clara;2;c;c;3;belly up;giro
+Clara;2;c;n;3;aplauso;repeat
+Clara;2;c;c;3;giro;repeat
+Clara;2;c;c;6;canto;repeat
+Clara;2;c;c;9;belly up;canto
+Clara;2;c;n;9;aplauso;repeat
+Clara;2;c;n;6;canto;repeat
+Clara;2;c;n;3;belly up;repeat
+Clara;2;c;c;3;aplauso;canto
+Clara;2;c;n;3;belly up;repeat
+Clara;2;c;c;3;aplauso;repeat
+Clara;2;c;n;6;canto;repeat
+Clara;2;c;c;3;giro;aplauso
+Clara;2;c;c;3;giro;repeat
+Clara;2;c;n;6;belly up;repeat
+Clara;2;c;c;3;giro;repeat
+Clara;3;c;n;0;belly up;repeat
+Clara;3;c;c;0;canto;repeat
+Clara;3;c;c;3;aplauso;aplauso
+Clara;3;c;c;3;giro;repeat
+Clara;3;c;c;6;canto;repeat
+Clara;3;c;n;9;aplauso;repeat
+Clara;3;c;n;6;giro;repeat
+Clara;3;c;c;3;belly up;canto
+Clara;3;c;n;3;belly up;repeat
+Clara;3;c;c;3;canto;giro
+Clara;3;c;n;3;aplauso;repeat
+Clara;3;c;n;3;giro;repeat
+Clara;3;c;n;3;belly up;repeat
+Clara;3;c;c;3;giro;belly up
+Clara;3;c;c;3;canto;repeat
+Clara;3;c;n;6;aplauso;repeat
+Clara;4;c;c;0;giro;repeat
+Clara;4;c;c;3;aplauso;canto
+Clara;4;c;c;3;canto;repeat
+Clara;4;c;n;6;belly up;repeat
+Clara;4;c;n;3;aplauso;repeat
+Clara;4;c;c;3;giro;repeat
+Clara;4;c;c;6;canto;giro
+Clara;4;c;n;6;aplauso;repeat
+Clara;4;c;n;3;canto;repeat
+Clara;4;c;c;3;aplauso;belly up
+Clara;4;c;n;3;aplauso;repeat
+Clara;4;c;n;3;belly up;repeat
+Clara;4;c;n;3;canto;repeat
+Clara;4;c;n;3;belly up;repeat
+Clara;4;c;c;3;giro;repeat
+Clara;4;c;c;6;giro;belly up
+Clara;5;c;c;0;belly up;giro
+Clara;5;c;c;0;belly up;repeat
+Clara;5;c;c;3;giro;repeat
+Clara;5;c;n;6;aplauso;repeat
+Clara;5;c;c;3;giro;repeat
+Clara;5;c;n;6;belly up;repeat
+Clara;5;c;c;3;belly up;canto
+Clara;5;c;c;3;canto;repeat
+Clara;5;c;c;6;aplauso;repeat
+Clara;5;c;c;9;aplauso;giro
+Clara;5;c;n;9;belly up;repeat
+Clara;5;c;c;6;canto;repeat
+Clara;5;c;c;9;canto;aplauso
+Clara;5;c;c;9;canto;repeat
+Clara;5;c;c;12;giro;repeat
+Clara;5;c;c;15;aplauso;repeat
+Clara;6;c;c;0;canto;repeat
+Clara;6;c;n;3;giro;repeat
+Clara;6;c;c;3;canto;repeat
+Clara;6;c;n;6;belly up;repeat
+Clara;6;c;c;3;aplauso;aplauso
+Clara;6;c;n;3;giro;repeat
+Clara;6;c;n;3;aplauso;repeat
+Clara;6;c;c;3;canto;giro
+Clara;6;c;n;3;aplauso;repeat
+Clara;6;c;n;3;belly up;repeat
+Clara;6;c;n;3;belly up;repeat
+Clara;6;c;n;3;giro;repeat
+Clara;6;c;c;3;belly up;canto
+Clara;6;c;c;3;giro;belly up
+Clara;6;c;c;3;canto;repeat
+Clara;6;c;c;6;aplauso;repeat
+Clara;7;c;c;0;canto;repeat
+Clara;7;c;c;3;aplauso;repeat
+Clara;7;c;n;6;giro;repeat
+Clara;7;c;c;3;canto;repeat
+Clara;7;c;c;6;giro;canto
+Clara;7;c;n;6;belly up;repeat
+Clara;7;c;c;3;aplauso;repeat
+Clara;7;c;c;6;belly up;belly up
+Clara;7;c;c;6;giro;aplauso
+Clara;7;c;n;6;belly up;repeat
+Clara;7;c;n;3;giro;repeat
+Clara;7;c;c;3;canto;aplauso
+Clara;7;c;n;3;belly up;repeat
+Clara;7;c;c;3;canto;repeat
+Clara;7;c;n;6;giro;repeat
+Clara;7;c;c;3;aplauso;repeat

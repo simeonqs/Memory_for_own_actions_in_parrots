@@ -1,0 +1,16 @@
+correct.or.not.1;correct.or.not.2;delay;b1;b2;
+c;c;0;wave;repeat;anticipating
+c;snort;3;chin;repeat;
+c;c;0;wave;snort;
+c;c;0;snort;repeat;
+c;snort;3;chin;wave;
+c;snort;3;chin;repeat;
+c;c;0;snort;repeat;
+c;c;3;snort;wave;
+c;c;3;wave;repeat;
+c;c;6;snort;chin;
+c;c;6;chin;repeat;
+c;c;9;wave;snort;anticipating
+c;c;9;chin;chin;
+c;c;9;snort;repeat;
+c;snort;12;wave;repeat;anticipating

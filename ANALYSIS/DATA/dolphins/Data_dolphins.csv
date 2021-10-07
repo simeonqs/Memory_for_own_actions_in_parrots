@@ -1,0 +1,209 @@
+Animal;Session;Behaviour_1;Offered_1;Behaviour_2;Offered_2
+Clara;1;spin;spin;sing;sing
+Clara;1;clap;clap;repeat;belly up
+Clara;1;belly up;belly up;repeat;belly up
+Clara;1;repeat;belly up;spin;spin
+Clara;1;clap;clap;sing;sing
+Clara;1;repeat;belly up;repeat;not ask
+Clara;1;spin;spin;repeat;spin
+Clara;1;belly up;belly up;sing;sing
+Clara;1;belly up;belly up;clap;clap
+Clara;1;repeat;sing;repeat;sing
+Clara;1;spin;spin;repeat;sing
+Clara;1;repeat;not ask;clap;clap
+Clara;1;belly up;belly up;repeat;belly up
+Clara;1;repeat;belly up;spin;spin
+Clara;1;belly up;belly up;clap;clap
+Clara;1;repeat;belly up;repeat;sing
+Clara;1;sing;sing;repeat;sing
+Clara;1;belly up;belly up;sing;sing
+Clara;1;clap;clap;spin;spin
+Clara;1;repeat;clap;repeat;clap
+Clara;1;sing;sing;repeat;spin
+Clara;1;repeat;sing;spin;spin
+Clara;1;clap;clap;belly up;belly up
+Clara;1;sing;sing;belly up;belly up
+Clara;1;repeat;sing;clap;clap
+Clara;1;sing;sing;spin;spin
+Clara;2;belly up;belly up;sing;sing
+Clara;2;spin;spin;repeat;belly up
+Clara;2;sing;sing;repeat;sing
+Clara;2;repeat;sing;clap;clap
+Clara;2;spin;spin;repeat;spin
+Clara;2;repeat;belly up;belly up;belly up
+Clara;2;spin;spin;belly up;belly up
+Clara;2;repeat;belly up;clap;clap
+Clara;2;repeat;belly up;repeat;sing
+Clara;2;spin;spin;sing;sing
+Clara;2;repeat;belly up;clap;clap
+Clara;2;belly up;belly up;sing;sing
+Clara;2;sing;sing;repeat;sing
+Clara;2;repeat;sing;spin;spin
+Clara;2;belly up;belly up;repeat;sing
+Clara;2;repeat;sing;clap;clap
+Clara;2;clap;clap;repeat;clap
+Clara;2;repeat;belly up;belly up;belly up
+Clara;2;spin;spin;belly up;belly up
+Clara;2;repeat;spin;repeat;clap
+Clara;2;clap;clap;belly up;belly up
+Clara;2;clap;clap;repeat;clap
+Clara;2;clap;clap;spin;spin
+Clara;2;repeat;spin;repeat;spin
+Clara;2;sing;sing;sing;sing
+Clara;2;spin;spin;sing;sing
+Clara;3;spin;spin;belly up;belly up
+Clara;3;spin;spin;belly up;belly up
+Clara;3;repeat;belly up;repeat;belly up
+Clara;3;clap;clap;sing;sing
+Clara;3;belly up;belly up;spin;spin
+Clara;3;repeat;belly up;sing;sing
+Clara;3;repeat;belly up;repeat;sing
+Clara;3;spin;spin;repeat;spin
+Clara;3;repeat;belly up;clap;clap
+Clara;3;clap;clap;repeat;sing
+Clara;3;sing;sing;spin;spin
+Clara;3;clap;clap;sing;sing
+Clara;3;repeat;clap;repeat;sing
+Clara;3;clap;clap;belly up;belly up
+Clara;3;repeat;belly up;repeat;belly up
+Clara;3;sing;sing;belly up;belly up
+Clara;3;belly up;belly up;repeat;belly up
+Clara;3;spin;spin;sing;sing
+Clara;3;clap;clap;repeat;belly up
+Clara;3;repeat;belly up;spin;spin
+Clara;3;repeat;belly up;repeat;sing
+Clara;3;belly up;belly up;sing;sing
+Clara;3;sing;sing;repeat;sing
+Clara;3;clap;clap;repeat;belly up
+Clara;3;repeat;sing;belly up;belly up
+Clara;3;clap;clap;spin;spin
+Clara;4;spin;spin;belly up;belly up
+Clara;4;sing;sing;repeat;sing
+Clara;4;repeat;sing;belly up;belly up
+Clara;4;clap;clap;repeat;sing
+Clara;4;belly up;bellu up;spin;spin
+Clara;4;repeat;spin;repeat;spin
+Clara;4;sing;sing;clap;clap
+Clara;4;spin;spin;belly up;belly up
+Clara;4;repeat;spin;sing;sing
+Clara;4;spin;spin;repeat;spin
+Clara;4;repeat;spin;sing;sing
+Clara;4;spin;spin;clap;clap
+Clara;4;repeat;spin;repeat;spin
+Clara;4;spin;spin;clap;clap
+Clara;4;sing;sing;repeat;spin
+Clara;4;clap;clap;belly up;belly up
+Clara;4;repeat;spin;repeat;spin
+Clara;4;clap;clap;sing;sing
+Clara;4;repeat;spin;repeat;spin
+Clara;4;clap;clap;spin;spin
+Clara;4;repeat;spin;clap;clap
+Clara;4;repeat;apin;repeat;spin
+Clara;4;belly up;bellu up;sing;sing
+Clara;4;belly up;bellu up;repeat;spin
+Clara;4;repeat;sing;spin;spin
+Clara;4;sing;sing;belly up;belly up
+Clara;5;clap;clap;belly up;belly up
+Clara;5;belly up;belly up;repeat;belly up
+Clara;5;sing;sing;repeat;sing
+Clara;5;repeat;sing;clap;clap
+Clara;5;belly up;belly up;spin;spin
+Clara;5;sing;sing;clap;clap
+Clara;5;repeat;sing;repeat;sing
+Clara;5;belly up;belly up;sing;sing
+Clara;5;clap;clap;spin;spin
+Clara;5;repeat;sing;repeat;sing
+Clara;5;clap;clap;clap;clap
+Clara;5;repeat;clap;spin;spin
+Clara;5;sing;sing;repeat;clap
+Clara;5;repeat;clap;belly up;belly up
+Clara;5;spin;spin;repeat;spin
+Clara;5;belly up;belly up;repeat;belly up
+Clara;5;repeat;spin;sing;sing
+Clara;5;belly up;belly up;repeat;belly up
+Clara;5;repeat;spin;clap;clap
+Clara;5;spin;spin;sing;sing
+Clara;5;repeat;sing;spin;spin
+Clara;5;sing;sing;sing;sing
+Clara;5;spin;spin;repeat;spin
+Clara;5;repeat;sing;belly up;belly up
+Clara;5;clap;clap;repeat;clap
+Clara;5;repeat;clap;spin;spin
+Clara;6;spin;spin;sing;sing
+Clara;6;clap;clap;belly up;belly up
+Clara;6;belly up;belly up;repeat;spin
+Clara;6;sing;sing;clap;clap
+Clara;6;clap;clap;repeat;spin
+Clara;6;repeat;sing;spin;spin
+Clara;6;repeat;spin;spin;spin
+Clara;6;belly up;belly up;repeat;belly up
+Clara;6;repeat;spin;spin;spin
+Clara;6;spin;spin;repeat;spin
+Clara;6;repeat;spin;sing;sing
+Clara;6;sing;sing;repeat;sing
+Clara;6;belly up;belly up;repeat;belly up
+Clara;6;repeat;sing;sing;sing
+Clara;6;spin;spin;belly up;belly up
+Clara;6;clap;clap;repeat;spin
+Clara;6;repeat;sing;sing;sing
+Clara;6;repeat;sing;repeat;sing
+Clara;6;belly up;belly up;belly up;belly up
+Clara;6;sing;sing;repeat;sing
+Clara;6;repeat;sing;belly up;belly up
+Clara;6;spin;spin;repeat;spin
+Clara;6;repeat;spin;clap;clap
+Clara;6;clap;clap;spin;spin
+Clara;6;clap;clap;repeat;spin
+Clara;6;sing;sing;clap;clap
+Clara;7;sing;sing;clap;clap
+Clara;7;sing;sing;repeat;sing
+Clara;7;repeat;sing;spin;spin
+Clara;7;clap;clap;repeat;clap
+Clara;7;repeat;sing;belly up;belly up
+Clara;7;sing;sing;sing;sing
+Clara;7;repeat;sing;clap;clap
+Clara;7;repeat;sing;belly up;belly up
+Clara;7;clap;clap;repeat;clap
+Clara;7;repeat;spin;spin;spin
+Clara;7;sing;sing;clap;clap
+Clara;7;belly up;belly up;repeat;belly up
+Clara;7;repeat;spin;spin;spin
+Clara;7;repeat;spin;spin;spin
+Clara;7;clap;clap;spin;spin
+Clara;7;repeat;spin;repeat;spin
+Clara;7;belly up;belly up;belly up;belly up
+Clara;7;repeat;belly up;clap;clap
+Clara;7;sing;sing;belly up;belly up
+Clara;7;sing;sing;repeat;sing
+Clara;7;repeat;sing;spin;spin
+Clara;7;belly up;belly up;repeat;belly up
+Clara;7;repeat;sing;clap;clap
+Clara;7;spin;spin;repeat;spin
+Clara;7;repeat;spin;belly up;belly up
+Clara;7;sing;sing;spin;spin
+Clara;8;sing;sing;belly up;belly up
+Clara;8;repeat;belly up;belly up;belly up
+Clara;8;sing;sing;repeat;sing
+Clara;8;repeat;sing;clap;clap
+Clara;8;sing;sing;clap;clap
+Clara;8;repeat;spin;repeat;spin
+Clara;8;belly up;belly up;belly up;belly up
+Clara;8;spin;spin;repeat;spin
+Clara;8;sing;sing;clap;clap
+Clara;8;belly up;belly up;repeat;belly up
+Clara;8;repeat;spin;spin;spin
+Clara;8;clap;clap;repeat;clap
+Clara;8;spin;spin;repeat;spin
+Clara;8;repeat;spin;spin;spin
+Clara;8;sing;sing;repeat;sing
+Clara;8;sing;sing;belly up;belly up
+Clara;8;repeat;belly up;repeat;spin
+Clara;8;belly up;belly up;spin;spin
+Clara;8;clap;clap;repeat;spin
+Clara;8;repeat;clap;spin;spin
+Clara;8;repeat;spin;repeat;spin
+Clara;8;belly up;belly up;clap;clap
+Clara;8;spin;spin;sing;sing
+Clara;8;repeat;sing;repeat;spin
+Clara;8;spin;spin;clap;clap
+Clara;8;sing;sing;clap;clap

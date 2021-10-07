@@ -1,0 +1,16 @@
+correct.or.not.1;correct.or.not.2;delay;b1;b2
+c;c;0;wave;repeat
+c;wave;3;giro;repeat
+c;c;3;wave;growl
+c;c;3;growl;repeat
+c;c;6;giro;wave
+c;wave;6;giro;repeat
+c;c;3;growl;repeat
+c;c;6;growl;wave
+c;sing;6;wave;repeat
+c;c;3;growl;giro
+c;wave;3;giro;repeat
+c;c;3;wave;growl
+c;c;3;giro;giro
+c;c;3;growl;repeat
+c;sing;6;wave;repeat
