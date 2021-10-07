@@ -1,7 +1,7 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # Project: parrot repeat
 # Date started: 02-05-2021
-# Date last modified: 14-05-2021
+# Date last modified: 15-07-2021
 # Author: Simeon Q. Smeele
 # Description: Analysis of the delay data.
 # source('delay.R', chdir = T)
@@ -47,29 +47,33 @@ clean_dat = data.frame(id = trans_id[delay_rep$Animal],
                        response = ifelse(delay_rep$correct.or.not.2 == 'c', 1, 0),
                        log_time = log(delay_rep$delay))
 
+# Load previous model results
+for(file in list.files('RESULTS', '*RData', full.names = T)) load(file)
+
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # ANALYSIS ----
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 # M1: Varying intercept ind and beh ----
-m_1 = ulam(
+m_delay_1 = ulam(
   alist(
     response ~ dbinom(1, p),
     logit(p) <- a_bar + 
       z_id[id] * sigma_id + 
       z_beh[beh] * sigma_beh +
       b * log_time,
-    a_bar ~  normal(-1, 1),
-    z_id[id] ~ normal(0, 0.5),
-    z_beh[beh] ~ normal(0, 0.5),
+    a_bar ~  normal(-1, 2),
+    z_id[id] ~ normal(0, 1),
+    z_beh[beh] ~ normal(0, 1),
     b ~ normal(0, 0.5),
-    sigma_id ~ dexp(1),
+    sigma_id ~ dexp(2),
     sigma_beh ~ dexp(2),
     gq> vector[id]: a_ind <<- a_bar + z_id * sigma_id,
     gq> vector[beh]: a_beh <<- a_bar + z_beh * sigma_beh
-  ), data = clean_dat, chains = 4, cores = 1, iter = 8000, warmup = 500)
+  ), data = clean_dat, chains = 4, cores = 4, iter = 8000, warmup = 500)
 
-precis(m_1, depth = 2) %>% plot
+precis(m_delay_1, depth = 2) %>% plot
+save(m_delay_1, file = 'RESULTS/m_delay_1.RData')
 
 # M2: Varying slope and intercept ind and beh ----
 m_delay_2 = ulam(
@@ -80,20 +84,21 @@ m_delay_2 = ulam(
       z_id[id] * sigma_id + 
       z_beh[beh] * sigma_beh +
       (b_bar + zb_id[id] * sigma_id_b) * log_time,
-    a_bar ~  normal(-1, 1),
-    z_id[id] ~ normal(0, 0.5),
-    z_beh[beh] ~ normal(0, 0.5),
-    b_bar ~ normal(0, 0.5),
+    a_bar ~  normal(-1, 2),
+    z_id[id] ~ normal(0, 1),
+    z_beh[beh] ~ normal(0, 1),
+    b_bar ~ normal(0, 1),
     zb_id[id] ~ normal(0, 1),
-    sigma_id ~ dexp(1),
-    sigma_id_b ~ dexp(1),
-    sigma_beh ~ dexp(1),
+    sigma_id ~ dexp(2),
+    sigma_id_b ~ dexp(2),
+    sigma_beh ~ dexp(2),
     gq> vector[id]: a_ind <<- a_bar + z_id * sigma_id,
     gq> vector[beh]: a_beh <<- a_bar + z_beh * sigma_beh
     
   ), data = clean_dat, chains = 4, cores = 4, iter = 4000, warmup = 500)
 
 precis(m_delay_2, depth = 3) %>% plot
+save(m_delay_2, file = 'RESULTS/m_delay_2.RData')
 
 # M2a: Varying slope and intercept ind and beh ----
 m_delay_2a = ulam(
@@ -119,6 +124,7 @@ m_delay_2a = ulam(
   ), data = clean_dat, chains = 4, cores = 4, iter = 4000, warmup = 500)
 
 precis(m_delay_2a, depth = 3) %>% plot
+save(m_delay_2a, file = 'RESULTS/m_delay_2a.RData')
 
 # M3: Varying slope and intercept ind and beh - uncentered ----
 m_delay_3 = ulam(
@@ -147,16 +153,46 @@ m_delay_3 = ulam(
     gq> matrix[2, 2]:Rho_id <<- Chol_to_Corr(L_Rho_id),
     gq> matrix[2, 2]:Rho_beh <<- Chol_to_Corr(L_Rho_beh)
 
-    
   ), data = clean_dat, chains = 4, cores = 4, iter = 4000, warmup = 500)
 
 precis(m_delay_3, depth = 3) %>% plot
+save(m_delay_3, file = 'RESULTS/m_delay_3.RData')
+
+# M4: Varying all - no covariance - uncentered ----
+m_delay_4 = ulam(
+  alist(
+    
+    response ~ dbinom(1, p),
+    logit(p) <- a_bar + 
+      z_id[id] * sigma_id + 
+      z_beh[beh] * sigma_beh +
+      (b_bar + 
+         zb_id[id] * sigma_id_b +
+         zb_beh[beh] * sigma_beh_b) * log_time,
+    a_bar ~  normal(-1, 2),
+    z_id[id] ~ normal(0, 1),
+    z_beh[beh] ~ normal(0, 1),
+    b_bar ~ normal(0, 1),
+    zb_id[id] ~ normal(0, 1),
+    zb_beh[beh] ~ normal(0, 1),
+    sigma_id ~ dexp(2),
+    sigma_id_b ~ dexp(2),
+    sigma_beh ~ dexp(2),
+    sigma_beh_b ~ dexp(2),
+    gq> vector[id]: a_ind <<- a_bar + z_id * sigma_id,
+    gq> vector[beh]: a_beh <<- a_bar + z_beh * sigma_beh
+    
+  ), data = clean_dat, chains = 4, cores = 4, iter = 4000, warmup = 500)
+
+precis(m_delay_4, depth = 3) %>% plot
+save(m_delay_4, file = 'RESULTS/m_delay_4.RData')
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # PLOTTING ----
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-# Make simple plot
+# M1: simple plot ----
+load('RESULTS/m_delay_1.RData')
 pdf('RESULTS/delay.pdf')
 plot(clean_dat$log_time + runif(nrow(clean_dat), 0, 0.1), 
      clean_dat$response + runif(nrow(clean_dat), 0, 0.1), 
@@ -171,7 +207,7 @@ perfs = sapply(times, function(x)
 points(times, perfs, pch = 3, col = alpha(1, 0.7), cex = 2)
 
 # Include results
-post = extract.samples(m_1)
+post = extract.samples(m_delay_1)
 pred_perfs_means = sapply(times, function(time){
   sapply(1:length(post$a_bar), function(i) post$a_bar[i] + post$b[i] * time) %>% mean %>% inv_logit
 })
@@ -185,14 +221,16 @@ shade(pred_perfs_PI, times, col = alpha('black', 0.2))
 lines(c(1, 3), c(0.25, 0.25), lty = 3, lwd = 3, col = alpha(1, 0.3))
 dev.off()
 
-# Plot varying effects
+# M2: varying effects ----
+load('RESULTS/m_delay_2.RData')
+pdf('RESULTS/delay - varying slope.pdf')
 plot(clean_dat$log_time + runif(nrow(clean_dat), 0, 0.1), 
      clean_dat$response + runif(nrow(clean_dat), 0, 0.1), 
      col = alpha(colours_animals[trans_id[clean_dat$id]], 0.8), pch = 16,
      xlab = 'time [s]', ylab = 'probability correct response', xaxt = 'n', xlim = c(1, 3))
 axis(1, c(1, 1.5, 2, 2.5, 3), round(exp(c(1, 1.5, 2, 2.5, 3))))
 times = unique(clean_dat$log_time)
-post = extract.samples(m_delay_3)
+post = extract.samples(m_delay_2)
 pred_perfs_means = sapply(times, function(time){
   sapply(1:length(post$a_bar), function(i){
     with(post, a_bar[i] + (b_bar[i]) * time)
@@ -200,20 +238,29 @@ pred_perfs_means = sapply(times, function(time){
 })
 pred_perfs_PI = sapply(times, function(time){
   sapply(1:length(post$a_bar), function(i){
-    with(post, a_bar[i] + (b_bar[i]) * time)
+    with(post, a_bar[i] + b_bar[i] * time)
   }) %>% PI %>% inv_logit
 })
 pred_perfs_id_means = sapply(times, function(time){
-  sapply(1:2, function(id){
+  sapply(1:3, function(id){
     sapply(1:length(post$a_bar), function(i){
-      with(post, a_bar + par_id[i, id, 1]+
-             (b_bar + par_id[i, id, 2]) * time)
+      with(post, a_bar[i] + z_id[i, id] * sigma_id[i] +
+             (b_bar[i] + zb_id[i, id] * sigma_id_b[i]) * time)
     }) %>% mean %>% inv_logit
   })
 })
-lines(times, pred_perfs_means, lty = 2, lwd = 3)
+pred_perfs_id_PI = lapply(1:3, function(id){
+  sapply(times, function(time){
+    sapply(1:length(post$a_bar), function(i){
+      with(post, a_bar[i] + z_id[i, id] * sigma_id[i] +
+             (b_bar[i] + zb_id[i, id] * sigma_id_b[i]) * time)
+    }) %>% PI %>% inv_logit
+  })
+})
 shade(pred_perfs_PI, times, col = alpha('black', 0.2))
-for(i in 1:2) lines(times, pred_perfs_id_means[i,], lty = 2, lwd = 3,
+for(i in 1:3) shade(pred_perfs_id_PI[[i]], times, col = alpha(colours_animals[trans_id[i]], 0.2))
+lines(times, pred_perfs_means, lty = 2, lwd = 3)
+for(i in 1:3) lines(times, pred_perfs_id_means[i,], lty = 2, lwd = 3,
                     col = alpha(colours_animals[trans_id[i]], 0.8))
-
+dev.off()
 
