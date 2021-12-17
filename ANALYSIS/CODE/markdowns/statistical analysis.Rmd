@@ -1,0 +1,45 @@
+---
+title: "Statistical Analysis"
+author: "Simeon Q. Smeele"
+date: "29-10-2021"
+output: word_document
+---
+
+## Repeat performance
+
+### Single repeat
+
+To test if individuals could remember their own behaviour we estimated the probability of responding correctly to the repeat command and compared this to chance level. We assumed chance level to be 1/4 if they randomly would choose one of the four behaviours as their response. To estimate the probability of success we used a Bayesian multilevel model with the following structure:
+
+$$\begin{aligned}
+\text{response}_i & \sim \text{binomial}(1,\ p_i)\\
+    \text{logit}(p_i) & =  \alpha_{\text{individual}[i]} + \gamma_{\text{behaviour}[i]}\\
+    \alpha & \sim  \text{normal}(\overline{\alpha},\ \sigma_\alpha)\\
+    \overline{\alpha} & \sim  \text{normal}(-0.5,\ 1)\\
+    \gamma & \sim  \text{normal}(0,\ \sigma_\gamma)\\
+    \sigma_\alpha & \sim \text{exponential}(1)\\
+    \sigma_\gamma & \sim \text{exponential}(2)\\
+\end{aligned}$$
+
+The prior for the average performance was chosen to centre most mass around the chance level of 1/4.
+
+### Double repeat
+
+To test performance on the double repeat task the same model was used, with the only modification that the prior for $\overline{\alpha}$ was centred around -1. 
+
+## Performance over time
+
+To test if and how performance declined with increased delay between the initial behaviour and the repeat command we use a similar Bayesian model with the modification that we added a multilevel slope:
+
+$$\begin{aligned}
+\text{response}_i & \sim \text{binomial}(1,\ p_i)\\
+    \text{logit}(p_i) & =  \alpha_{\text{individual}[i]} + \gamma_{\text{behaviour}[i]} + \beta_{[i]} * \text{log(time)}\\
+    \alpha & \sim  \text{normal}(\overline{\alpha},\ \sigma_\alpha)\\
+    \overline{\alpha} & \sim  \text{normal}(-1,\ 1)\\
+    \gamma & \sim  \text{normal}(0,\ \sigma_\gamma)\\
+    \beta_{[i]} &= \zeta_{\text{individual}[i]} + \iota_{\text{behaviour}[i]}\\
+    \zeta & \sim  \text{normal}(0,\ \sigma_\zeta)\\
+    \iota & \sim  \text{normal}(0,\ \sigma_\iota)\\
+    \sigma_\alpha,\sigma_\gamma,\sigma_\zeta,\sigma_\iota  & \sim \text{exponential}(2)\\
+\end{aligned}$$
+
