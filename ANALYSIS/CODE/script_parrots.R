@@ -95,8 +95,8 @@ m_single <- ulam(
       z_id[id] * sigma_id + 
       z_beh[beh] * sigma_beh,
     a_bar ~  normal(-0.5, 1),
-    z_id[id] ~ normal(0, 0.5),
-    z_beh[beh] ~ normal(0, 0.5),
+    z_id[id] ~ normal(0, 1),
+    z_beh[beh] ~ normal(0, 1),
     sigma_id ~ dexp(1),
     sigma_beh ~ dexp(2),
     gq> vector[id]: a_ind <<- a_bar + z_id * sigma_id,
