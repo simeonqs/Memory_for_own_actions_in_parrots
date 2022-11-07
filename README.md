@@ -3,7 +3,7 @@
 The R code and data needed to replicate results from the article:
 
 ```
-What did I do? Memory for own actions in parrots
+Sara Torres Ortiz, Simeon Q. Smeele, Juliette Champenois et al. What did I do? Memory for own actions in parrots, 17 October 2022, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-2098690/v1]
 ```
 ------------------------------------------------
 
