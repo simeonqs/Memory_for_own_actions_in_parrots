@@ -1,4 +1,4 @@
-# parrot_repeat
+# Memory for own actions in parrots
 
 The R code and data needed to replicate results from the article:
 
